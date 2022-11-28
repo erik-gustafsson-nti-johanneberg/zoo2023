@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+
+}
+
+.main_container {
+    display: grid;
+    grid-template-rows: 1fr 12fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 150vh;
+    grid-template-areas: 
+    'hd hd hd'
+    'mn mn mn'
+    'ft ft ft';
+
+
+}
+
+
+header {
+    grid-area: hd;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: green;
+    position: fixed;
+    width:100vw;
+}
+
+main {
+    grid-area: mn;
+    background-image: url("/img/diverse/thecafe.jpg");
+
+}
+
+footer {
+    grid-area: ft;
+    display: flex;
+    width: 100vw;
+    background-color: rebeccapurple;
+}
+
+#bg_image {
+    height: fit-content;
+}
+
+#logo_image {
+    width: 300px;
+    height: auto;
+}
+
+.qoute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info_bubble {
+    width: 60vh;
+    height: 20vh;
+    background-image: url("/img/diverse/chatbubble.png");
+}
