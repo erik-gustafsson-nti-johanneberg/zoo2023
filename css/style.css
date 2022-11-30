@@ -1,6 +1,6 @@
+/* Startsida */
 body {
     margin: 0px;
-
 }
 
 .main_container {
@@ -26,6 +26,7 @@ header {
     position: fixed;
     width:100vw;
 }
+
 
 main {
     grid-area: mn;
@@ -70,3 +71,59 @@ footer {
     width: 300px;
     height: auto;
 }
+
+/* Om oss sidan */
+.about_container {
+
+
+}
+
+
+.employee_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    grid-area: 
+    'sec1 sec2 sec3'
+    'sec4 sec5 sec6';
+
+}
+
+.section_image{
+    height: 80%;
+    width: 100%;
+}
+
+
+.sec1 {
+    grid-area: sec1;
+    
+}
+
+.sec2 {
+    grid-area: sec1;
+    
+}
+
+.sec3 {
+    grid-area: sec1;
+    
+}
+
+.sec4 {
+    grid-area: sec1;
+    
+}
+
+.sec5 {
+    grid-area: sec1;
+    
+}
+
+.sec6 {
+    grid-area: sec1;
+    
+}
+
