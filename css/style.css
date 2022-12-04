@@ -1,14 +1,23 @@
-/* Startsida */
+/*Allmänt */
 body {
     margin: 0px;
     
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Startsida */
+
+
 .main_container {
     display: grid;
     grid-template-rows: 1fr 12fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 150vh;
+    height: 120vh;
+    width: 100%;
     grid-template-areas: 
     'hd hd hd'
     'mn mn mn'
@@ -23,34 +32,56 @@ header {
     align-content: center;
     background-color: green;
     position: fixed;
-    width:100vw;
+    width:100%;
 }
 
 
 main {
     grid-area: mn;
-    background-color: rgb(106, 232, 139);
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    height:100vh;
 }
 
 .top_main {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
     background-image: url("/img/diverse/thecafe.jpg");
-    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.qoute {
+.welcome_msg {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+}
+
+#text_on_image {
+    color: whitesmoke;
 }
 
 
-
-.middle_main {
+.mid_main {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-
+    align-items: center;
 }
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    
+}
+
 
 footer {
     grid-area: ft;
@@ -58,7 +89,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+    width:100%;
     background-color: rebeccapurple;
 }
 
