@@ -8,30 +8,14 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-/* Startsida */
-
-
-.main_container {
-    display: grid;
-    grid-template-rows: 1fr 12fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 120vh;
-    width: 100%;
-    grid-template-areas: 
-    'hd hd hd'
-    'mn mn mn'
-    'ft ft ft';
-}
-
-
 header {
     grid-area: hd;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    background-color: green;
+    background-color: black;
     position: fixed;
+    top: 0;
     width:100%;
 }
 
@@ -40,12 +24,45 @@ main {
     grid-area: mn;
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
     height:100vh;
 }
 
+
+footer {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    background-image: url("/img/diverse/cool_green_bg.jpg");
+}
+
+#header_text {
+    text-decoration: underline;
+    color: white;
+}
+
+h1 {
+}
+
+
+/* Startsida */
+.main_container {
+    display: grid;
+    grid-template-rows: 1fr 12fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd'
+    'mn mn mn'
+    'ft ft ft';
+}
+
+
 .top_main {
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -70,6 +87,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #7bc671;
 }
 
 .reviews {
@@ -78,19 +96,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 30vh;
     
-}
-
-
-footer {
-    grid-area: ft;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width:100%;
-    background-color: rebeccapurple;
 }
 
 #bg_image {
@@ -100,6 +106,10 @@ footer {
 #logo_image {
     width: 300px;
     height: auto;
+}
+
+#footer_text {
+    text-decoration: solid;
 }
 
 /* Om oss sidan */
