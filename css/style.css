@@ -1,7 +1,8 @@
 /*Allmänt */
 body {
     margin: 0px;
-    
+    background-color: #7bc671;
+
 }
 
 h1 {
@@ -62,7 +63,7 @@ h1 {
 
 
 .top_main {
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -87,7 +88,9 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #7bc671;
+    height: 60%;
 }
 
 .reviews {
