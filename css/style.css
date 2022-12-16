@@ -9,6 +9,10 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
 header {
     grid-area: hd;
     display: flex;
@@ -132,33 +136,35 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 100vw;
-    height: fit-content;
+    height: 100%;
     grid-template-areas:
     'sec1 sec2 sec3'
     'sec4 sec5 sec6';
-
 }
 
 
 .section_image{
-    height: 60%;
-    width: 90%;
-    border-radius: 60%;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 50%;
+    padding-right: 10px;
+
 }
 
 .sec1 {
     margin: 20px;
     grid-area: sec1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sec2 {
     margin: 20px;
     grid-area: sec2;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -166,7 +172,8 @@ h1 {
     margin: 20px;
     grid-area: sec3;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -174,23 +181,25 @@ h1 {
     margin: 20px;
     grid-area: sec4;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .sec5 {
-    margin: 20px;
     grid-area: sec5;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .sec6 {
-    margin: 20px;
     grid-area: sec6;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
@@ -199,7 +208,6 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
 
 }
 
