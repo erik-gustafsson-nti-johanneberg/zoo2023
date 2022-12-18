@@ -49,8 +49,27 @@ footer {
 }
 
 h1 {
+    font-family: mavenPro;
 }
 
+h2 {
+    font-family: mavenPro;
+}
+
+h3 {
+    font-family: mavenPro;
+}
+
+h4 {
+    font-family: mavenPro;
+}
+
+
+@font-face {
+    font-family: mavenPro;
+    src: url("/fonts/MavenPro-Regular.ttf");
+}
+  
 
 /* Startsida */
 .main_container {
@@ -95,6 +114,7 @@ h1 {
     justify-content: center;
     background-color: #7bc671;
     height: 60%;
+    margin: 10px;
 }
 
 .reviews {
@@ -187,6 +207,7 @@ h1 {
 }
 
 .sec5 {
+    margin: 20px;
     grid-area: sec5;
     display: flex;
     flex-direction: column;
@@ -195,6 +216,7 @@ h1 {
 }
 
 .sec6 {
+    margin: 20px;
     grid-area: sec6;
     display: flex;
     flex-direction: column;
@@ -268,7 +290,7 @@ h1 {
 .aftermeal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     width: 100%;
     grid-template-areas:
     'menu_sec1 menu_sec2 menu_sec3';  
@@ -328,3 +350,4 @@ h1 {
     margin: 20px;
     grid-area: menu_sec9;
 }
+
