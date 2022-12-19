@@ -6,10 +6,26 @@ body {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: mavenPro;
+}
+
+h2 {
+    font-family: mavenPro;
+}
+
+h3 {
+    font-family: mavenPro;
+}
+
+h4 {
+    font-family: mavenPro;
 }
 
 p {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+li {
     font-family: 'Comic Sans MS', sans-serif;
 }
 
@@ -48,21 +64,6 @@ footer {
     color: white;
 }
 
-h1 {
-    font-family: mavenPro;
-}
-
-h2 {
-    font-family: mavenPro;
-}
-
-h3 {
-    font-family: mavenPro;
-}
-
-h4 {
-    font-family: mavenPro;
-}
 
 
 @font-face {
